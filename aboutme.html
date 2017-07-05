@@ -40,31 +40,54 @@ h4 {
     color: #027B7E
 }
 </style>
+<h1><u>about me</u></h1>
 </head>
 <body>
 
-<h1><u>about me</u></h1>
 <h4>Victoria Devlin</h2>
 
-  <h3><u>Bio</u></h3>
-  <p class="sansserif"> My name is Victoria Devlin and I am currently 16 years old. I will be a senior at Immaculate Heart High School in the fall.I play soccer and I used to play volleyball and run track.</p>
-  
-  <h3><u>Fun Websites</u></h3>
-  <p><a href="https://www.buzzfeed.com/html/">Buzzfeed</a></p>
-  <p><a href="https://www.instagram.com/?hl=en/html/">Instagram</a></p>
+<h3><u>Bio</u></h3>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<p id="bio"></p>
+<script>
+function myFunction() {
+    document.getElementById("bio").innerHTML = "My name is Victoria Devlin and I am currently 16 years old. I will be a senior at Immaculate Heart High School in the fall.I play soccer and I used to play volleyball and run track.";
+}
+</script>
+
+<h3><u>Fun Websites</u></h3>
+<p><a href="https://www.buzzfeed.com/html/">Buzzfeed</a></p>
+<p><a href="https://www.instagram.com/?hl=en/html/">Instagram</a></p>
 
 <h3><u>Other Links</u></h3>
-<p><a href="https://vdevlin.github.io/portfolio/gwc.html">Coding Page</a></p>
+<p><a href="https://vdevlin.github.io/portfolio/gwc.html">Coding</a></p>
 
-<h3 id="likes"> Likes </h3>
-	<button type="button" onclick='document.getElementById("likes").innerHTML = "Netflix, Food, Soccer, Volleyball, Reading" '>Click to see</button
+<h3><u>Likes</u></h3>
+<button type="button" onclick="myFunction1()">Click Me!</button>
+<p id="likes"></p>
+<script>
+function myFunction1() {
+	document.getElementById("likes").innerHTML = "Netflix, Soccer, Food, Volleyball, Reading";
+}
+</script>
 	
-  
-  <h3><u>Dislikes</u></h3>
-  <p>Tests</p>
-  
-  <h3><u>Fun Fact</u></h3>
-  <p>At my school, almost everyone calls me by my last name, Devlin (besides teachers)</p>
+<h3><u>Dislikes</u></h3>
+<button type="button" onclick="Function()">Click Me!</button>
+<p id="dislikes"></p>
+<script>
+function Function() {
+	document.getElementById("dislikes").innerHTML = "Tests, Bees, Sharks, Snakes";
+}
+</script>
+
+<h3><u>Fun Fact</u></h3>
+<button type="button" onclick="myFunction3()">Click Me!</button>
+<p id="funfact"></p>
+<script>
+function myFunction3() {
+	document.getElementById("funfact").innerHTML = "At my school, almost everyone calls me by my last name, Devlin (besides teachers)";
+}
+</script>
 
   <h2>Reflections</h2>
 	<h4><u>06/20/17</u></h4>
@@ -74,6 +97,10 @@ h4 {
 	<p>My idea of robotics changed as there were so many things I didn't realize were robots until I made a list of them and we started talking about it. Something that makes me excited about in the future of robotics is how advanced everything is getting and how we are able to implement these thing in our everyday life, like self driving cars. Something that makes me nervous about in the future of robotics is how some of them have artifical intelligence and can think and act without a human contolling them.</p>
 	<p>My team worked really well together on the lightshow. The only problem we had was making it play a song. It started to play one but not the one we wanted.
 	<p>The basic pieces of every Arduino sketch is a set up and a loop</p>
-	
+
+<script>
+window.alert(7);
+</script>
+
 </body>	
 </html>
